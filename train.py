@@ -108,8 +108,4 @@ def main():
 
 
 if __name__ == "__main__":
-    model = YOLOv3(num_classes=config.NUM_CLASSES).to(config.DEVICE)
-
-    for k, v in model.named_parameters():
-        print(k)
-    # main()
+    main()
