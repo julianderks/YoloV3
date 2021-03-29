@@ -2,7 +2,8 @@ import albumentations as A
 import cv2
 import torch
 
-from albumentations.pytorch import ToTensorV2
+from albumentations.pytorch import ToTensor as ToTensorV2
+
 from utils import seed_everything
 
 DATASET = 'PASCAL_VOC'
