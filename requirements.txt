@@ -1,0 +1,7 @@
+torch
+PIL
+pandas
+numpy
+matplotlib
+albumentations
+cv2
